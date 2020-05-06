@@ -75,9 +75,9 @@ function launch(env) {
   let matInst = MatInst
 
   // taskWithProxyOverwriteFlag override original proxy setting defined in matfile
-  taskProxyFlag && matInst.env({
-    port: taskProxyFlag
-  })
+  // taskProxyFlag && matInst.env({
+  //   port: taskProxyFlag
+  // })
 
   logEvents(matInst)
 
