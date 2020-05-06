@@ -24,7 +24,7 @@ process.once('exit', function (code) {
 })
 
 var cli = new Liftoff({
-  name: 'mat'
+  name: 'mat-old'
 })
 
 cli.launch({
