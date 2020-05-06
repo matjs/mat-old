@@ -164,4 +164,4 @@ Mat.prototype.close = function () {
 }
 
 
-module.exports = Mat
+module.exports = new Mat()
