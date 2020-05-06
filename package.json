@@ -1,7 +1,7 @@
 {
   "name": "mat-old",
   "description": "mat兼容的老版本",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "url": "https://github.com/matjs/mat"
   },
@@ -13,7 +13,7 @@
   },
   "main": "index",
   "bin": {
-    "mat-old": "bin/mat"
+    "mat-old": "bin/mat-old"
   },
   "dependencies": {
     "chalk": "1.0.0",

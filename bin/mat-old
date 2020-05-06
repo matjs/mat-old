@@ -62,6 +62,7 @@ function launch(env) {
     process.exit(1)
   }
 
+  // console.log(`env`, env)
   if (!env.modulePath) {
     log.error('Local mat not found in', tildify(env.cwd))
     log.error('Try running: npm install mat')
@@ -71,7 +72,7 @@ function launch(env) {
   require(env.configPath)
 
   var MatInst = require(env.modulePath)
-  matInst = new MatInst()
+  let matInst = MatInst
 
   // taskWithProxyOverwriteFlag override original proxy setting defined in matfile
   taskProxyFlag && matInst.env({
