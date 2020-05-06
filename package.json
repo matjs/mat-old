@@ -34,7 +34,7 @@
     "orchestrator": "0.3.7",
     "qs": "6.5.1",
     "safe-buffer": "^5.1.1",
-    "semver": "4.3.1",
+    "semver": "7.3.2",
     "thunkify": "2.1.2",
     "tildify": "1.0.0"
   },
